@@ -3,6 +3,7 @@ body {
     /* 50px is the height of the navbar - change this if the navbarn height changes */
 }
 
+
 #box-toggle u {
 	display:block;
 	cursor:pointer;
@@ -72,8 +73,10 @@ body {
     text-decoration: none;
 }
 
-.lead{
+.lead, .list-group {
     color: #295e62;
+    font-size:18px;
+    line-height: 30px;
 }
 
 footer {
@@ -86,6 +89,9 @@ footer {
     border-top: 5px solid #295e62;
     border-bottom: 5px solid #295e62;
     letter-spacing: 2px;
+}
+footer a:hover {
+    text-decoration: none;
 }
 
 .sociais{
