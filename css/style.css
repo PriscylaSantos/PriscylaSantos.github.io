@@ -3,16 +3,15 @@ body {
     /* 50px is the height of the navbar - change this if the navbarn height changes */
 }
 
-
 #box-toggle u {
-	display:block;
-	cursor:pointer;
-	font-weight:bold;
-	font-size:14px;
-	color:#295e62;
-	margin-top:5px;
+    display: block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    color: #295e62;
+    margin-top: 5px;
     text-decoration: none;
-	}
+}
 
 .cabecalho {
     margin-top: 30px;
@@ -21,7 +20,7 @@ body {
     padding-right: 60px;
     padding-left: 60px;
     /*background-color: #e1f6f4 ;*/
-    color:#295e62;
+    color: #295e62;
     /*#07588a;*/
     /*#295e62 ;*/
     padding-top: 18px;
@@ -68,20 +67,21 @@ body {
     color: #1c4648;
 }
 
-.resumos-subtitulo a:hover{
+.resumos-subtitulo a:hover {
     color: #07588a;
     text-decoration: none;
 }
 
-.lead, .list-group {
+.lead,
+.list-group {
     color: #295e62;
-    font-size:18px;
+    font-size: 18px;
     line-height: 30px;
 }
 
 footer {
     margin: 50px 0;
-    color:#295e62;
+    color: #295e62;
     /*#07588a;*/
     /*#295e62 ;*/
     padding-top: 18px;
@@ -90,10 +90,21 @@ footer {
     border-bottom: 5px solid #295e62;
     letter-spacing: 2px;
 }
+
 footer a:hover {
     text-decoration: none;
 }
 
-.sociais{
+.sociais {
     word-spacing: 50px;
+}
+
+.projetos {
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+mark {
+    background-color: #f5f2f0;
+    color: #07588a;
 }
