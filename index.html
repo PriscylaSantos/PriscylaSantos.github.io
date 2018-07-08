@@ -1,459 +1,497 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
+
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.1.0/octicons.min.css">
-    <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="css/fontawesome-all.min.css" media="screen" title="no title" charset="utf-8">
+    <title>Priscyla Santos</title>
 
-</head>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
 
-<body onload="pisca();">
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css'>
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
 
-    <div class="cabecalho">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-2">
-                    <img class="img-responsive img-circle" src="img/foto65.png" alt="Foto de Priscyla" />
-                </div>
-                <div class="col-md-10">
-                    <h1 id="titulo" class="text-center"></h1>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="css/resume.css">
 
-    <div id="box-toggle">
-        <div class="container">
-            <!-- FORMAÇÃO ACADÊMICA -->
-            <div class="resumos">
-                <h2 class="resumos-titulo text-center">Formação Acadêmica</h2>
-                <h3 class="resumos-subtitulo"><span class="glyphicon glyphicon-education"></span> Bacharel em Ciência da Computação:
-                    <span class="text-muted">
-                        IF Sudeste MG - campus Rio Pomba <br /> <small>Graduação realizada de 2010 a 2016</small><br />
-                        <small>Trabalho de Conclusão de Curso: <a href="https://www.dropbox.com/s/x4i4emqb0e64ssy/Software%20para%20resolu%C3%A7%C3%A3o%20dos%20Algoritmos%20de%20Transporte.pdf?dl=0" target="_blank">Software para resolução dos Algoritmos de Transporte</a></small>
-                    </span>
-                </h3>
-                <h3 class="resumos-subtitulo"><span class="glyphicon glyphicon-education"> </span> Técnico em Agroindústria:
-                    <span class="text-muted">
-                        IF Sudeste MG - campus Rio Pomba <br /> <small>Curso Técnico e Ensino Médio realizado de 2007 a 2009</small>
-                    </span>
-                </h3>
-            </div>
-            <!-- FIM -->
-            <hr class="resumos-div" />
-            <!-- EXPERIÊNCIAS -->
-            <div class="resumos">
-                <h2 class="resumos-titulo text-center">Experiências</h2>
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Priscyla Santos</span>
+        <span class="d-none d-lg-block">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/foto65.png" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#sobre">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experiencia">Experiências</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#formacao">Formação</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#habilidade">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#publicacao">Publicações</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#registro">Registos de Programas</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="sobre">
+        <div class="my-auto">
+            <h1 id="nome" class="mb-0"></h1>
+            <div id="endereco" class="subheading mb-5"></div>
+            <p>
+                <span class="fa-lg">
+                    <i class="fa fa-terminal" aria-hidden="true"> Cientista da Computação</i>
+                </span> <br><br>
                 
-                <h3 class="resumos-subtitulo"> <span class="glyphicon glyphicon-briefcase"></span> studioApp:
-                    <span class="text-muted"> Analista de Sistemas, 2017 <br /><small>Desenvolvedora back-end: Maio de 2017 - até o momento</small></span>
-                </h3>
-                <div class="tgl">
-                    <p class="lead text-justify">
-                        Desenvolvedora back-end na studioApp - Juiz de Fora, Minas Gerais.
-                        <br /> Responsável pelo desenvolvimento de aplicações em nuvem. Para mais informações: http://studioapp.com.br/
-                    </p>
-                </div>
+                <span class="fa-lg">
+                    <i class="fa fa-code" aria-hidden="true"> Analista de Sistemas</i> 
+                </span> <br><br>
+                
+                <span class="fa-lg">
+                    <i class="fa fa-laptop" aria-hidden="true"> Web Developer</i>
+                </span> <br><br>
+                
+            </p>
+          
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/priscyla.santos.9" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://twitter.com/PriscylaCSantos" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://br.linkedin.com/in/priscylacsantos" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/PriscylaSantos" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://twitter.com/PriscylaCSantos" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-                <h3 class="resumos-subtitulo"> <span class="glyphicon glyphicon-briefcase"></span> Departamento de Pesquisa e Pós-Graduação:
-                    <span class="text-muted"> Bolsista, 2016 <br /><small>Desenvolvedora back-end: Maio de 2016 - Julho de 2016</small></span>
-                </h3>
-                <div class="tgl">
-                    <p class="lead text-justify">
-                        Desenvolvedora back-end no Departamento de Pesquisa e Pós-Graduação do IF Sudeste MG - campus Rio Pomba.
-                        <br /> Responsável pela manutenção do sistema de submissão e avaliação de trabalhos/artigos utilizado pelo departamento durante o Simpósio 2016 do campus Rio Pomba.
-                    </p>
-                </div>
-                <h3 class="resumos-subtitulo"> <span class="glyphicon glyphicon-briefcase"></span> Grupo de Pesquisa em Computação Aplicada:
-                    <span class="text-muted"> Colaboradora, 2014 - 2016 <br /><small>Pesquisadora e Desenvolvedora: Janeiro de 2014 - Julho de 2016</small></span>
-                </h3>
-                <div class="tgl">
-                    <p class="lead text-justify">
-                        Colaboradora do Grupo de Pesquisa de Computação Aplicada no IF Sudeste MG - campus Rio Pomba.
-                        <br /> Atuou na área desenvolvimento de <i>software</i> educativo para auxiliar no ensino de otimização, gerando um software e duas publicações.
-                        <br />
-                        <i><strong>Software</strong></i>: SEEAT(Sistema Educativo para o Ensino dos Algoritmos de Transporte)
-                        <br />
-                        <strong>Publicações</strong>: Sistema Educativo para o Ensino dos Algoritmos de Transporte(2014) e Sistema para aprendizado dos Algoritmos de Transporte (2016)
-                    </p>
-                </div>
-                <h3 class="resumos-subtitulo"> <span class="glyphicon glyphicon-briefcase"></span> Coordenação Geral de Graduação:
-                    <span class="text-muted"> Bolsista, 2014 - 2016 <br /><small> Desenvolvedora full-stack: Abril de 2014 - Janeiro de 2016</small></span></h3>
-                <div class="tgl">
-                    <p class="lead text-justify">
-                        Desenvolvedora full-stack na Coordenação Geral de Graduação do IF Sudeste MG - campus Rio Pomba.
-                        <br /> Responsável pelo suporte, manutenção e documentação dos seguintes sistemas: Sistema de Monitoria, Sistema de Controle da Produção e Sistema de Viagem Técnica.
-                        <br /> Desenvolvimeto do sistema de inscrições para eventos, utilizados no Encontro Científico de Educação Matemática(ECEM 2016) e no Primeiro Workshop de Alimentos(2016).
-                    </p>
-                </div>
-                <h3 class="resumos-subtitulo"> <span class="glyphicon glyphicon-briefcase"></span> Gerência de Tecnologia da Informação:
-                    <span class="text-muted">Estagiária, 2012 - 2013 <br /> <small>Desenvolvedora full-stack : Outubro de  2012 - Novembro de 2013</small></span></h3>
-                <div class="tgl">
-                    <p class="lead text-justify">
-                        Estagiária no setor de Gerência de Tecnologia da Informação do IF Sudeste MG - campus Rio Pomba.
-                        <br /> Responsável pela manutenção de sites utilizados para inscrição em eventos da instituição.
-                        <br /> Desenvolvimento do Sistema de Simulado responsável pela geração dos cartões utilizados na aplicação de provas do campus Rio Pomba.
-                        <br /> Manutenção do site institucional para o Framework Drupal.
-                    </p>
-                </div>
-                <h3 class="resumos-subtitulo"> <span class="glyphicon glyphicon-briefcase"></span> Grupo de Estudos e Desenvolvimento de Software Livre:
-                    <span class="text-muted">Bolsista, 2012 - 2015<br /><small>Desenvolvedora full-stack e Designer gráfico: Abril de 2012 - Julho de 2015</small></span>
-                </h3>
-                <div class="tgl">
-                    <p class="lead text-justify">
-                        Integrante no Grupo de Estudos de Software Livre (IFGnu) no IF Sudeste MG - campus Rio Pomba.
-                        <br /> Atuou na área de desenvolvimento web (Front-end e back-end) e designer grafico.
-                        <br /> Alguns projetos: Desenvolvimento do site do Grupo IFGNU, Desenvolvimento Sistema de inscrição para minicursos e Manutenção do site do setor Coordenação Geral de Assistência Estudantil (CGAE).
-                    </p>
-                </div>
-                <h3 class="resumos-subtitulo"> <span class="glyphicon glyphicon-briefcase"></span> Laboratório de Multimídia Interativa:
-                    <span class="text-muted">Bolsista, 2010 - 2012<br /><small>Pesquisadora e Designer gráfico: Dezembro de 2010 - Agosto de 2012</small></span>
-                </h3>
-                <div class="tgl">
-                    <p class="lead text-justify">
-                        Bolsista do Laboratório de Multimídia Interativa do IF Sudeste MG - campus Rio Pomba (LAMIF), que faz parte do Programa de Educação Tutorial (PET).
-                        <br /> Atuou na área de pesquisa e elaboração de artigos científicos na área de jogos eletrônicos educativos e também como Designer gráfico.
-                        <br />
-                        <strong>Publicações</strong>:Uma Proposta de Jogo Educacional 3D com Questões Didáticas(2011), Gamification for Professionals in the Development Area of Electronic Games(2012) e Mathematics Teaching Based on a New Pedagogical Tool
-                        for M-Learning(2012).
-                    </p>
-                </div>
+      <!-- Parte de Experiência -->
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experiencia">
+        <div class="my-auto">
+          <h2 class="mb-5">Experiências</h2>
+
+          <!-- StudioApp -->
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Analista de Sistemas Júnior</h3>
+              <div class="subheading mb-3">studioApp</div>
+              <p class="text-justify">
+                  Desenvolvedora <em>back-end</em> na <a href="http://studioapp.com.br/" target="_blank"> studioApp</a> - Juiz de Fora, Minas Gerais.<br>
+                  Responsável pelo desenvolvimento de aplicações em nuvem e Chat Bots.<br> 
+                  
+              </p>
             </div>
-            <!-- FIM -->
-            <hr class="resumos-div" />
-            <!-- COMPETÊNCIAS E ESPECIALIDADES -->
-            <div class="resumos">
-                <h2 class="resumos-titulo text-center">Competências e Habilidades</h2>
-                <div class="row">
-                    <div class="col-md-2">
-                        <p class="lead text-center"> Django, Laravel
-                            <br />
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Maio 2017 - até o momento</span>
+            </div>
+          </div>
+
+          <!-- DPPG -->
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Bolsista</h3>
+              <div class="subheading mb-3">DPPG</div>
+              <p class="text-justify">
+                  Desenvolvedora <em>back-end</em> no <a href="https://sistemas.riopomba.ifsudestemg.edu.br/dppg/" target="_blank">Departamento de Pesquisa e Pós-Graduação</a>. <br>
+                  Responsável pela manutenção do sistema de submissão e avaliação de trabalhos/artigos utilizado pelo departamento
+                  durante o Simpósio 2016 do campus Rio Pomba.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Maio 2016 - Julho 2016</span>
+            </div>
+          </div>
+
+          <!-- PESCA -->
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Colaboradora</h3>
+              <div class="subheading mb-3">Grupo PesCA</div>
+              <p class="text-justify">
+                Pesquisadora e desenvolvedora do Grupo de Pesquisa de Computação Aplicada.
+                Responsável pelo desenvolvimento de <em>software</em> educativo para auxiliar no ensino de otimização, gerando um software e duas publicações.
+              </p>
+              <p>
+                  <strong><em>Software</em></strong>: SEEAT(Sistema Educativo para o Ensino dos Algoritmos de Transporte)<br>
+                  <strong>Publicações</strong>: Sistema Educativo para o Ensino dos Algoritmos de Transporte(2014) e Sistema para aprendizado dos Algoritmos de Transporte (2016) 
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Janeiro 2014 - Julho 2016</span>
+            </div>
+          </div>
+
+          <!-- CGG -->
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Bolsista</h3>
+              <div class="subheading mb-3">CGG</div>
+              <p class="text-justify">
+                  Desenvolvedora <em>full-stack</em> na <a href="https://sistemas.riopomba.ifsudestemg.edu.br/cgg/" target="_blank">Coordenação Geral de Graduação</a>.<br>
+                  Responsável pelo suporte, manutenção e documentação dos seguintes sistemas: Sistema de Monitoria, Sistema de Controle da Produção e Sistema de Viagem Técnica.<br>
+                  Desenvolvimeto do sistema de inscrições para eventos, utilizados no Encontro Científico de Educação Matemática(ECEM 2016) e no Primeiro Workshop de Alimentos(2016).
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Abril 2014 - Janeiro 2016</span>
+            </div>
+          </div>
+          
+          <!-- GTI -->
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Estagiária</h3>
+              <div class="subheading mb-3">GTI</div>
+              <p class="text-justify">
+                  Estagiária <em>full-stack</em> no setor de <a href="https://www.riopomba.ifsudestemg.edu.br/portal/node/53" target="_blank">Gerência de Tecnologia da Informação</a>.<br>
+                Responsável pela manutenção de sites utilizados para inscrição em eventos da instituição.<br>
+                Desenvolvimento do Sistema de Simulado responsável pela geração dos cartões utilizados na aplicação de provas do campus Rio Pomba.<br>
+                Manutenção do site institucional para o <em>Framework</em> Drupal.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Outubro 2012 - Novembro 2013</span>
+            </div>
+          </div>
+          
+          <!-- IFGNU -->
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Bolsista</h3>
+              <div class="subheading mb-3">IFGnu</div>
+              <p class="text-justify">
+                Integrante no <a href="https://sistemas.riopomba.ifsudestemg.edu.br/ifgnu/index.php?arquivo=conteudo_menu_categoria.php&codigo_subcategoria=3" target="_blank"> Grupo de Estudos de Software Livre</a> (IFGnu).
+                Responsável pelo desenvolvimento web (<em>Front-end</em> e <em>back-end</em>) e designer grafico.
+              </p>
+              <p class="text-justify">
+                  <strong>Alguns projetos</strong>: Desenvolvimento do site do Grupo IFGnu, Desenvolvimento Sistema de inscrição para minicursos e Manutenção do site do setor Coordenação Geral de Assistência Estudantil (CGAE). 
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Abril 2012 - Julho 2015</span>
+            </div>
+          </div>
+          
+          <!-- LAMIF -->
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Bolsista</h3>
+              <div class="subheading mb-3">LAMIF</div>
+              <p class="text-justify">
+                Bolsista do <a href="https://sistemas.riopomba.ifsudestemg.edu.br/lamif/?page_id=24" target="_blank">Laboratório de Multimídia Interativa</a>, que faz parte do Programa de Educação Tutorial (PET).
+                Responsável por pesquisa e elaboração de artigos científicos na área de jogos eletrônicos educativos e também como Designer gráfico.</p>
+              <p class="text-justify">
+                  <strong>Publicações</strong>: Uma Proposta de Jogo Educacional 3D com Questões Didáticas(2011), <em>Gamification for Professionals in the Development Area of Electronic Games</em>(2012) e <em>Mathematics Teaching Based on a New Pedagogical Tool for M-Learning</em>(2012).
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Dezembro 2010 - Agosto 2012</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Parte de Estudos -->
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="formacao">
+        <div class="my-auto">
+          <h2 class="mb-5">Formação Acadêmica</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">IF Sudeste MG - campus Rio Pomba</h3>
+              <div class="subheading mb-3">Bacharelado em Ciência da Computação</div>
+              <div>Graducação em Ciência da Computação</div>
+              <p>Trabalho de Conclusão de Curso <a href="https://www.dropbox.com/s/x4i4emqb0e64ssy/Software%20para%20resolu%C3%A7%C3%A3o%20dos%20Algoritmos%20de%20Transporte.pdf?dl=0" target="_blank">Software para resolução dos Algoritmos de Transporte</a></p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Fevereiro 2010 - Julho 2016</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">IF Sudeste MG - campus Rio Pomba</h3>
+              <div class="subheading mb-3">Técnico em Agroindústria</div>
+              <p>Curso Técnico em Agroindústria e Ensino Médio</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Fevereiro 2007 - Dezembro 2009</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      
+      <!-- Parte Habilidades -->
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="habilidade">
+        <div class="my-auto">
+          <h2 class="mb-5">Habilidades</h2>
+
+          <div class="subheading mb-3">
+              Conehcimento Básico/Em estudo
+            <ul class="list-inline list-icons">
+
+              <li class="list-inline-item">
+                <i class="devicons devicons-django" title="Django"></i>
+              </li>
+
+              <li class="list-inline-item">
+                <i class="devicons devicons-laravel" title="Laravel"></i>
+              </li>
+
+              <li class="list-inline-item">
+                <i class="devicons devicons-javascript" title="Javascript"></i>
+              </li>
+
+              <li class="list-inline-item">
+                <i class="devicons devicons-angular" title="Angular"></i>
+              </li>
+
+              <li class="list-inline-item">
+                <i class="devicons devicons-ionic" title="Ionic"></i>
+              </li>
+
+              <li class="list-inline-item">
+                <i class="devicons devicons-java" title="Java"></i>
+              </li>
+
+              <li class="list-inline-item">
+                <i class="devicons devicons-aws" title="Amazon Web Services"></i>
+              </li>
+
+              <li class="list-inline-item">
+                  <i class="devicons devicons-docker" title="Docker"></i>
+              </li>
+            </ul>
+           </div>
+          
+            <div class="subheading mb-3">
+                Conhecimento intermediário
+
+              <ul class="list-inline list-icons">
+                <li class="list-inline-item">
+                  <i class="devicons devicons-html5" title="HTML5"></i>
+                </li>
+
+                <li class="list-inline-item">
+                  <i class="devicons devicons-css3" title="CSS3"></i>
+                </li>
+
+                <li class="list-inline-item">
+                  <i class="devicons devicons-bootstrap" title="Bootstrap"></i>
+                </li>
+
+                <li class="list-inline-item">
+                    <i class="devicons devicons-git" title="Git"></i>
+                </li>
+
+                <li class="list-inline-item">
+                    <i class="devicons devicons-terminal" title="Terminal"></i>
+                </li>
+
+                <li class="list-inline-item">
+                    <i class="devicons devicons-visualstudio" title="Visual Studio Code"></i>
+                </li>
+
+                 <li class="list-inline-item">
+                    <i class="devicons devicons-mysql" title="MySql"></i>
+                </li>
+
+                <li class="list-inline-item">
+                    <i class="devicons devicons-netbeans" title="Netbeans"></i>
+                </li>
+
+                <li class="list-inline-item">
+                    <i class="devicons devicons-markdown" title="Markdown"></i>
+                </li>
+              </ul>
+            </div>
+      
+            <div class="subheading mb-3">
+                Conhecimento avançado
+
+              <ul class="list-inline list-icons">
+                <li class="list-inline-item">
+                  <i class="devicons devicons-python" title="Python"></i>
+                </li>
+
+                <li class="list-inline-item">
+                    <i class="devicons devicons-ubuntu" title="Ubuntu"></i>
+                </li>
+
+                <li class="list-inline-item">
+                    <i class="devicons devicons-php" title="PHP"></i>
+                </li>
+              </ul>
+            </div>
             
-                            
-                        </p>
-                    </div>
-                    <div class="col-md-2">
-                        <p class="lead text-center"> JavaScript
-                            <br />
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                            
-                        </p>
-                    </div>
-                    <div class="col-md-2">
-                        <p class="lead text-center"> Angular, TypeScript
-                            <br />
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                            
-                        </p>
-                    </div>
-                    <div class="col-md-2">
-                        <p class="lead text-center"> Ionic
-                            <br />
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                            
-                        </p>
-                    </div>
-                    <div class="col-md-2">
-                        <p class="lead text-center"> C, C#, Java
-                            <br />
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                            
-                        </p>
-                    </div>
-                    <div class="col-md-2">
-                        <p class="lead text-center"> Python
-                            <br />
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-2">
-                        <p class="lead text-center">Bootstrap3
-                            <br />
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                            
-                        </p>
-                    </div>
-                    <div class="col-md-2">
-                        <p class="lead text-center">HTML5, CSS3
-                            <br />
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                            
-                        </p>
-                    </div>
-                    <div class="col-md-2">
-                        <p class="lead text-center">MySQL
-                            <br />
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                            
-                        </p>
-                    </div>
-                    <div class="col-md-2">
-                        <p class="lead text-center">GitHub, Bitbucket
-                            <br />
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                        </p>
-                    </div>
-                    <div class="col-md-2">
-                        <p class="lead text-center"> PHP
-                            <br />
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                        </p>
-                    </div>
-                    <div class="col-md-2">
-                        <p class="lead text-center"> Linux(Ubuntu)
-                            <br />
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                            <i class="fas fa-star fa-lg" aria-hidden="true"></i>
-                        </p>
-                    </div>
-                </div>
-
-
-            </div>
-            <!-- FIM -->
-            <hr class="resumos-div" />
-            <!-- REGISTRO DE PROGRAMA DE COMPUTADOR -->
-            <div class="resumos">
-                <!-- <img class="resumos-image img-suqare img-responsive pull-right" alt="Bootstrap template" src="http://placehold.it/500x500"> -->
-                <h2 class="resumos-titulo text-center">Registro de Programa de Computador</h2>
-                <h3 class="resumos-subtitulo"><span class="glyphicon glyphicon-folder-close"></span> SAAC - Sistema de Administração Acadêmica <br />
-                    <span class="text-muted"><small>Registro: BR 51 2016 000774-5 <br />Sistema de administração acadêmica que possibilita controle das atividades de ensino do campus Rio Pomba.</small></span>
-                </h3>
-                <h3 class="resumos-subtitulo"><span class="glyphicon glyphicon-folder-close"></span> Sistema de Monitoria <br />
-                    <span class="text-muted"><small>Registro: BR 51 2016 000776-1<br />Sistema utilizado por alunos, professores e servidores da Coordenação Geral de Graduação (CGG) e Coordenação Geral de Ensino Técnico (GCET).</small></span>
-                </h3>
-                <h3 class="resumos-subtitulo"><span class="glyphicon glyphicon-folder-close"></span> Sistema de Controle de Produção <br />
-                    <span class="text-muted"><small>Registro:  BR 51 2016 000775-3<br />Sistema em questão permite controlar todos os passos da mercadoria durante sua trajetória no campus Rio Pomba.</small></span>
-                </h3>
-                <h3 class="resumos-subtitulo"><span class="glyphicon glyphicon-folder-close"></span> Sistema de Viagem Técnica<br />
-                    <span class="text-muted"><small> Registro: BR 51 2016 000777-0<br />Permite o controle total dos procedimentos realizados para solicitação e liberação das viagens técnicas realizadas no campus Rio Pomba.</small></span>
-                </h3>
-                <p class="lead text-center">
-                  Para mais informações consulte  <a href="revistas.inpi.gov.br/pdf/Patentes2408.pdf" target="_blank">Revista da Propriedade Industrial</a>
-                  nº 2408 publicada em 01 de Março de 2017
-                </p>
-            </div>
-            <!-- FIM -->
-            <hr class="resumos-div" />
-            <div class="resumos">
-                <!-- <img class="resumos-image img-suqare img-responsive pull-right" alt="Bootstrap template" src="http://placehold.it/500x500"> -->
-                <h2 class="resumos-titulo text-center">Publicações</h2>
-                <h3 class="resumos-subtitulo"><span class="glyphicon glyphicon-book"></span> Sistema para aprendizado dos Algoritmos de Transporte - SEEAT: <span class="text-muted">2016<br />
-                    <small>XXXVI Congresso Nacional de Matemática Aplicada e Computacional <a href="https://proceedings.sbmac.org.br/sbmac/article/view/1720/1728"target="_blank">Acesse</a> </small></span>
-                </h3>
-                <h3 class="resumos-subtitulo"><span class="glyphicon glyphicon-book"></span> Sistema Educativo para o Ensino dos Algoritmos de Transporte: <span class="text-muted">2014<br />
-                    <small>XXXV Congresso Nacional de Matemática Aplicada e Computacional - <a href="https://proceedings.sbmac.org.br/sbmac/article/view/794" target="_blank">Acesse</a></small></span>
-                </h3>
-                <h3 class="resumos-subtitulo"><span class="glyphicon glyphicon-book"></span> Mathematics Teaching Based on a New Pedagogical Tool for M-Learning: <span class="text-muted">2012<br />
-                    <small>XI Simpósio Brasileiro de Jogos e Entretenimento Digital - <a href="http://sbgames.org/sbgames2012/proceedings/papers/cultura/C_F8.pdf" target="_blank">Acesse</a></small></span>
-                </h3>
-                <h3 class="resumos-subtitulo"><span class="glyphicon glyphicon-book"></span> Gamification for Professionals in the Development Area of Electronic Games: <span class="text-muted">2012 <br />
-                    <small>XI Simpósio Brasileiro de Jogos e Entretenimento Digital - <a href="http://sbgames.org/sbgames2012/proceedings/papers/cultura/C_S7.pdf" target="_blank">Acesse</a></small></span>
-                </h3>
-                <h3 class="resumos-subtitulo"><span class="glyphicon glyphicon-book"></span> Uma Proposta de Jogo Educacional 3D com Questões Didáticas: <span class="text-muted">2011<br />
-                    <small>22º Simpósio Brasileiro de Informática na Educação e 17º Workshop de Informática na Escola - <a href="http://www.br-ie.org/pub/index.php/sbie/article/view/1624" target="_blank">Acesse</a></small></span>
-                </h3>
-            </div>
-            <hr class="resumos-div" />
-            <div class="resumos">
-                <!-- <img class="resumos-image img-suqare img-responsive pull-right" alt="Bootstrap template" src="http://placehold.it/500x500"> -->
-                <h2 class="resumos-titulo text-center">Projetos no GitHub e Bitbucket</h2>
-                <div class="row">
-                    <!--<div class="col-md-4">
-                        <h3 class="resumos-subtitulo text-center"><a href="https://github.com/PriscylaSantos/Templates" class="btn-social btn-outline" target="_blank">Templates</a></h3>
-                        <p class="lead text-center">git clone https://github.com/PriscylaSantos/Templates.git</p>
-                    </div> -->
-                    <div class="col-md-3 ">
-                        <h4 class="resumos-subtitulo text-center">FiltrosDeImagem</h4>
-                        <p class="text-muted"> Trabalho sobre Filtros de Imagem desenvolvido em C# para a disciplina de Computação Gráfica. <a href="https://github.com/PriscylaSantos/FiltrosDeImagem" class="btn-social btn-outline" target="_blank">Mais...</a> </p>
-                        <p class="text-justify"><mark>csharp</mark> <mark>C#</mark></p>
-                        <p class="text-justify"><mark> computacao-grafica</mark></p>
-                        <p class="text-justify"><mark> filtros-de-imagem </mark></p>
-                    </div>
-                    <div class="col-md-3 ">
-                        <h4 class="resumos-subtitulo text-center">AlgoritmosDeTransporte</h4>
-                        <p class="text-muted">Trabalho em grupo sobre Algoritmos de Transporte desenvolvido para a disciplina de Pesquisa Operacional. <a href="https://github.com/PriscylaSantos/AlgoritmosDeTransporte" class="btn-social btn-outline" target="_blank">Mais...</a></p>
-                        <p class="text-justify"><mark>php</mark></p>
-                        <p class="text-justify"><mark> pesquisa-operacional</mark></p>
-                        <p class="text-justify"><mark> algoritmos-de-transporte </mark></p>
-                    </div>
-                    <div class="col-md-3 ">
-                        <h4 class="resumos-subtitulo text-center">Automato</h4>
-                        <p class="text-muted">Implemetação de um autômato para reconhecer números decimais positivos e negativos. <a href="https://github.com/PriscylaSantos/Automato" class="btn-social btn-outline" target="_blank">Mais...</a></p>
-                        <p class="text-justify"><mark>php</mark></p>
-                        <p class="text-justify"><mark> automatos </mark></p>
-                    </div>
-                    <div class="col-md-3 ">
-                        <h4 class="resumos-subtitulo text-center">materialOpenGL</h4>
-                        <p class="text-muted">Material de estudo e trabalhos realizados na disciplina de Computação Gráfica. <a href="https://github.com/PriscylaSantos/materialOpenGL" class="btn-social btn-outline" target="_blank">Mais...</a> </p>
-                        <p class="text-justify"><mark>C</mark></p>
-                        <p class="text-justify"><mark> opengl </mark></p>
-                        <p class="text-justify"><mark>computacao-grafica</mark></p>
-                    </div>
-
-                </div>
-                <div class="row projetos">
-
-                    <div class="col-md-3 ">
-                        <h4 class="resumos-subtitulo text-center">Templates</h4>
-                        <p class="text-muted"> Repositório com templates responsivos utilizando Bootstrap. <a href="https://github.com/PriscylaSantos/Templates" class="btn-social btn-outline" target="_blank">Mais...</a> </p>
-                        <p class="text-justify"><mark>bootstrap3</mark></p>
-                        <p class="text-justify"><mark>HTML5</mark></p>
-                        <p class="text-justify"><mark>CSS3</mark></p>
-                    </div>
-                    <div class="col-md-3 ">
-                        <h4 class="resumos-subtitulo text-center">estudosTypeScript</h4>
-                        <p class="text-muted">Estudos sobre TypeScript. <a href="https://github.com/PriscylaSantos/estudosTypeScript" class="btn-social btn-outline" target="_blank">Mais...</a> </p>
-                        <p class="text-justify"><mark>typescript</mark></p>
-                        <p class="text-justify"><mark>javascript</mark></p>
-                    </div>
-                    <div class="col-md-3 ">
-                        <h4 class="resumos-subtitulo text-center">estudosIonic</h4>
-                        <p class="text-muted">Estudos sobre o Ionic2 e Ionic3. <a href="https://github.com/PriscylaSantos/estudosIonic" class="btn-social btn-outline" target="_blank">Mais...</a> </p>
-                        <p class="text-justify"><mark>typescript</mark></p>
-                        <p class="text-justify"><mark>angular</mark></p>
-                        <p class="text-justify"><mark>ionic</mark></p>
-                    </div>
-                    <div class="col-md-3 ">
-                        <h4 class="resumos-subtitulo text-center">estudosPython</h4>
-                        <p class="text-muted">Estudos em Python3. <a href="https://github.com/PriscylaSantos/estudosPython" class="btn-social btn-outline" target="_blank">Mais...</a></p>
-                        <p class="text-justify"><mark>python</mark></p>
-                        <p class="text-justify"><mark>python3</mark></p>
-                    </div>
-
-                </div>
-                <div class="row">
-                    <p class="lead text-center">Acesse mais projetos no <a href="https://github.com/PriscylaSantos" class="btn-social btn-outline" target="_blank">GitHub</a> e <a href="https://bitbucket.org/PriscylaSantos/" class="btn-social btn-outline" target="_blank">Bitbucket</a></p>
-                </div>
-            </div>
-            <hr class="resumos-div" />
-            <div class="resumos">
-                <h2 class="resumos-titulo text-center">&#9977;&nbsp;&nbsp;&#9976;&nbsp;&nbsp;Alguns Hobbies&nbsp;&nbsp;&#9975;&nbsp;&nbsp;&#9973;</h2>
-                <div class="row">&#9728;
-                    <div class="col-md-12">
-                        <ul class="list-inline sociais text-center lead">
-                            <li><i class="fa fa-utensils fa-lg" aria-hidden="true"></i>
-                                <br />Cozinhar</li>
-                            <li><i class="fa fa-film fa-lg" aria-hidden="true"></i>
-                                <br />Filmes</li>
-                            <li><i class="fa fa-tv fa-lg" aria-hidden="true"></i>
-                                <br />Séries</li>
-                            <li><i class="fa fa-bus fa-lg" aria-hidden="true"></i>
-                                <br />Viajar</li>
-                            <li><i class="fa fa-gamepad fa-lg" aria-hidden="true"></i>
-                                <br />Jogar</li>
-                            <li><i class="fa fa-headphones fa-lg" aria-hidden="true"></i>
-                                <br />Eletrônica</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- <hr class="resumos-div" /> -->
         </div>
+      </section>
+
+      <!--Parte de Publicações-->
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="publicacao">
+        <!--<div class="my-auto">-->
+          <h2 class="mb-5">Publicações</h2>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              
+                <h3 class="mb-0">Sistema para aprendizado dos Algoritmos de Transporte - SEEAT (2016)</h3>
+                <div class="subheading mb-3">XXXVI Congresso Nacional de Matemática Aplicada e Computacional · <a href="https://proceedings.sbmac.org.br/sbmac/article/view/1720/1728" target="_blank">Acesse</a> </div>
+                <br>
+                <h3 class="mb-0">Sistema Educativo para o Ensino dos Algoritmos de Transporte (2014)</h3>
+                <div class="subheading mb-3">XXXV Congresso Nacional de Matemática Aplicada e Computacional · <a href="https://proceedings.sbmac.org.br/sbmac/article/view/794" target="_blank">Acesse</a> </div>
+                <br>
+                <h3 class="mb-0">Mathematics Teaching Based on a New Pedagogical Tool for M-Learning (2012)</h3>
+                <div class="subheading mb-3">XI Simpósio Brasileiro de Jogos e Entretenimento Digital · <a href="http://sbgames.org/sbgames2012/proceedings/papers/cultura/C_F8.pdf" target="_blank">Acesse</a> </div>
+                <br>
+                <h3 class="mb-0">Gamification for Professionals in the Development Area of Electronic Games (2012)</h3>
+                <div class="subheading mb-3">XI Simpósio Brasileiro de Jogos e Entretenimento Digital · <a href="http://sbgames.org/sbgames2012/proceedings/papers/cultura/C_S7.pdf" target="_blank">Acesse</a> </div>
+                <br>
+                <h3 class="mb-0">Uma Proposta de Jogo Educacional 3D com Questões Didáticas (2011)</h3>
+                <div class="subheading mb-3">22º Simpósio Brasileiro de Informática na Educação e 17º Workshop de Informática na Escola · <a href="http://www.br-ie.org/pub/index.php/sbie/article/view/1624" target="_blank">Acesse</a> </div>
+                
+            </div>
+          </div>
+        <!--</div>-->
+      </section>
+
+      <!--Parte de Registro de Programas-->
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="registro">
+          <h2 class="mb-5">Registro de Programa de Computador</h2>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              
+                <h3 class="mb-0">SAAC - Sistema de Administração Acadêmica </h3>
+                <div class="subheading mb-3">Registro: BR 51 2016 000774-5</div>
+                <p>Sistema de administração acadêmica que possibilita controle das atividades de ensino do campus Rio Pomba.</p>
+                <br>
+                
+                <h3 class="mb-0">Sistema de Monitoria </h3>
+                <div class="subheading mb-3">Registro: BR 51 2016 000776-1</div>
+                <p>Sistema utilizado por alunos, professores e servidores da Coordenação Geral de Graduação (CGG) e Coordenação Geral de Ensino Técnico (GCET).</p>
+                <br>
+                
+                <h3 class="mb-0">Sistema de Controle de Produção </h3>
+                <div class="subheading mb-3">Registro: BR 51 2016 000775-3</div>
+                <p>Sistema em questão permite controlar todos os passos da mercadoria durante sua trajetória no campus Rio Pomba.</p>
+                <br>
+                
+                <h3 class="mb-0">Sistema de Viagem Técnica</h3>
+                <div class="subheading mb-3">Registro: BR 51 2016 000777-0</div>
+                <p>Permite o controle total dos procedimentos realizados para solicitação e liberação das viagens técnicas realizadas no campus Rio Pomba.</p>
+                <br>
+                
+                <p>Para mais informações consulte <a href="revistas.inpi.gov.br/pdf/Patentes2408.pdf" target="_blank">Revista da Propriedade Industrial</a> nº 2408 publicada em 01 de Março de 2017 </p>
+                
+            </div>
+      </section>
+
     </div>
- 
-    <footer class="text-center">
-        <!-- <div class="container"> -->
-        <div class="row">
-            <!-- <h3 class="resumos-subtitulo">Contato</h3> -->
-            <div class="col-md-4">
-                <!-- <p class="lead"><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i> Rio Pomba - MG</p> -->
-                <p class="lead"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i> santospriscyla@gmail.com
-                    <br />
-                    <i class="fa fa-map-marker" aria-hidden="true"></i> Juiz de Fora, Minas Gerais, Brasil</p>
-            </div>
-            <div class="col-md-8 sociais">
-                <p>
-                    <ul class="list-inline">
-                        <li><a href="https://github.com/PriscylaSantos" class="btn-social btn-outline" target="_blank"><i class="fab fa-github-alt fa-2x lead"></i></a></li>
-                        <li><a href="https://bitbucket.org/PriscylaSantos/" class="btn-social btn-outline" target="_blank"><i class="fab fa-bitbucket fa-2x lead"></i></a></li>
-                        <li><a href="https://plus.google.com/116368141341503070684/about/p/pub?fd=1&hl=pt_BR" class="btn-social btn-outline" target="_blank"><i class="fab fa-google-plus fa-2x lead"></i></a></li>
-                        <li><a href="https://br.linkedin.com/in/priscylacsantos" class="btn-social btn-outline" target="_blank"><i class="fab fa-linkedin fa-2x lead"></i></a></li>
-                        <li><a href="https://www.facebook.com/priscyla.santos.9" class="btn-social btn-outline" target="_blank"><i class="fab fa-facebook fa-2x lead"></i></a></li>
-                        <li><a href="https://twitter.com/PriscylaCSantos" class="btn-social btn-outline" target="_blank"><i class="fab fa-twitter fa-2x lead"></i></a></li>
-                        <li><a href="https://www.youtube.com/channel/UCVuVp8Sv76CrsDgTgiMsEYA" class="btn-social btn-outline" target="_blank"><i class="fab fa-youtube fa-2x lead"></i></a></li>
-                        <li><a href=" http://lattes.cnpq.br/1850876765303427" class="lead" target="_blank">Lattes</a></li>
-                    </ul>
-                </p>
-            </div>
-        </div>
-        <!-- </div> -->
-    </footer>
 
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.typeit/4.2.3/typeit.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+    
+      <!-- TypeIT -->
+
+    <script src="https://cdn.jsdelivr.net/npm/typeit@5.10.1/dist/typeit.min.js"></script>
 
     <script>
-        $('#titulo').typeIt({
-                speed: 90,
-                autoStart: false
-            })
-            .tiType('Priscyla Cristhina dos Santos')
-            .tiBreak().tiPause(750)
-            .tiType('<small>Desenvolvedora Web, </small>')
-            .tiPause(1000)
-            .tiType('<small>Programadora, </small>')
-            .tiPause(1000)
-            .tiType('<small>Freelancer, </small>')
-            .tiPause(1000)
-            .tiType('<small>adora praia e é #TeamSuperMan<img src="img/superman.png" width=5% alt="Foto do Superman" /></small>')
-            .tiPause(2000)
-            .tiDelete(8)
-            .tiPause(500)
-            .tiType('<small>Batman</small><img src="img/batman.png" width=5% alt="Logo do Batman" />');
+ 
+      new TypeIt('#nome', {
+        speed: 100,
+        autoStart: false
+       })
+      .type('Priscilla')
+      .pause(600)
+      .delete(4)
+      .type('yla ')
+      .pause(1000)
+      .type('<span class="text-primary">Santos</span>');
 
-        //codigo pra esconder texto
-        jQuery.fn.toggleText = function(a, b) {
-            return this.html(this.html().replace(new RegExp("(" + a + "|" + b + ")"), function(x) {
-                return (x == a) ? b : a;
-            }));
-        }
 
-        $(document).ready(function() {
-            $('.tgl').before('<u>Detalhes</u>');
-            $('.tgl').css('display', 'none')
-            $('u', '#box-toggle').click(function() {
-                $(this).next().slideToggle('slow')
-                    .siblings('.tgl:visible').slideToggle('fast');
-
-                $(this).toggleText('Detalhes', 'Esconder')
-                    .siblings('u').next('.tgl:visible').prev()
-                    .toggleText('Detalhes', 'Esconder')
-            });
-        })
+      new TypeIt('#endereco', {
+        speed: 90,
+        autoStart: false
+       })
+      .pause(5000)
+      .type('Juiz de Fora, Minas Gerais - Brasil · <a href="mailto:santospriscyla@gmail.com">santospriscyla@gmail.com</a>');
+      
     </script>
 
-</body>
+  </body>
 
 </html>
